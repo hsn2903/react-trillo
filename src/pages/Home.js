@@ -168,7 +168,7 @@ const Home = () => {
                 doloremque architecto dicta animi, totam, itaque officia ex.
               </blockquote>
               <figcaption class="review__user">
-                <img src="img/user-1.jpg" alt="User 1" class="review__photo" />
+                <img src={user1} alt="User 1" class="review__photo" />
                 <div class="review__user-box">
                   <p class="review__user-name">Nick Smith</p>
                   <p class="review__user-date">Feb 23rd, 2017</p>
@@ -183,7 +183,7 @@ const Home = () => {
                 doloremque architecto dicta animi.
               </blockquote>
               <figcaption class="review__user">
-                <img src="img/user-2.jpg" alt="User 1" class="review__photo" />
+                <img src={user2} alt="User 1" class="review__photo" />
                 <div class="review__user-box">
                   <p class="review__user-name">Mary Thomas</p>
                   <p class="review__user-date">Sept 13th, 2017</p>
